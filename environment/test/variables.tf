@@ -1,7 +1,7 @@
 variable "aws_region" {
   type        = string
   description = "AWS region where EKS will be deployed"
-  default     = "eu-central-1"
+  default     = "us-east-1"
 }
 
 variable "aws_profile" {
@@ -51,3 +51,4 @@ variable "instance_type" {
   description = "Instance type for worker nodes"
   default     = "t3.medium"
 }
+
