@@ -5,7 +5,7 @@ module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "~> 5.16.0"
 
-  name                 = "eks-vpc-tes"
+  name                 = "eks-vpc"
   cidr                 = var.vpc_cidr
   azs                  = ["us-east-1a", "us-east-1b"]
   public_subnets       = var.public_subnets
